@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta name="generator" content="Hugo 0.25.1" /><head>
+<head><head>
     <meta name="google-site-verification" content="9vIieCe-Qpd78QOmBl63rGtIVbhY6sYyuxX3j8XWBA4" />
     <meta name="baidu-site-verification" content="LRrmH41lz7" />
     <meta charset="utf-8">
@@ -14,9 +13,9 @@
     <meta name="keyword"  content="�Ի���, zhaohuabing, Zhaohuabing, , �Ի�����������־, �Ի����Ĳ���, Zhaohuabing Blog, ����, ������վ, ������, Web, ��ԭ��, PaaS, Istio, Kubernetes, ΢����, Microservice">
     <link rel="shortcut icon" href="https://mlin74.github.io/img/favicon.ico">
 
-    <title>Huabing Blog-�Ի����Ĳ��� | Zhaohuabing Blog</title>
+    <title>Istio-�Ի����Ĳ��� | Zhaohuabing Blog</title>
 
-    <link rel="canonical" href="https://mlin74.github.io/">
+    <link rel="canonical" href="https://mlin74.github.io/tags/istio/">
 
     <link rel="stylesheet" href="https://mlin74.github.io/css/iDisqus.min.css"/>
 	
@@ -170,28 +169,6 @@
 <hr>
 
 <div class="post-preview">
-    <a href="https://mlin74.github.io/2018/06/03/cryptocurrency_week3_bitcoin_script/">
-        <h2 class="post-title">
-            Bitcoin Script
-        </h2>
-	
-        <h3 class="post-subtitle">
-            Bitcoin and Cryptocurrency Technologies-Week 3
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            Bitcoin Script is using to transfer coins instead of just signature and public key address, which allows more flexibilities for Bitcoin transactions
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by     &#34;赵化冰&#34; Sunday, June 3, 2018
-    </p>
-</div>
-<hr>
-
-<div class="post-preview">
     <a href="https://mlin74.github.io/2018/06/02/istio08/">
         <h2 class="post-title">
             Istio 0.8 Release发布
@@ -214,45 +191,63 @@
 <hr>
 
 <div class="post-preview">
-    <a href="https://mlin74.github.io/2018/05/26/cryptocurrency_week2_distributed_consenus/">
+    <a href="https://mlin74.github.io/2018/05/23/istio-auto-injection-with-webhook/">
         <h2 class="post-title">
-            Distributed Consensus
+            Istio Sidecar自动注入原理
         </h2>
 	
         <h3 class="post-subtitle">
-            Bitcoin and Cryptocurrency Technologies-Week 2
+            Kubernetes webhook扩展机制解析
         </h3>
 	
         <div class="post-content-preview">
 	
-            How the nodes in the bitcoin network reach consensus on the transactions?
+            Kubernets 1.9版本引入了Admission Webhook(web 回调)扩展机制，通过Webhook,开发者可以非常灵活地对Kubernets API Server的功能进行扩展，在API Server创建资源时对资源进行验证或者修改。 Istio 0.7版本就利用了Kubernets webhook实现了sidecar的自动注入。
         
         </div>
     </a>
     <p class="post-meta">
-    Posted by     &#34;赵化冰&#34; Sunday, May 27, 2018
+    Posted by     &#34;赵化冰&#34; Wednesday, May 23, 2018
     </p>
 </div>
 <hr>
 
 <div class="post-preview">
-    <a href="https://mlin74.github.io/2018/05/26/cryptocurrency_week2_incentives_and_proof_of_work/">
+    <a href="https://mlin74.github.io/2018/03/29/what-is-service-mesh-and-istio/">
         <h2 class="post-title">
-            Incentives and Proof of Work
+            谈谈微服务架构中的基础设施：Service Mesh与Istio
         </h2>
 	
         <h3 class="post-subtitle">
-            Bitcoin and Cryptocurrency Technologies-Week 2
+            Service Mesh模式及Istio开源项目介绍
         </h3>
 	
         <div class="post-content-preview">
 	
-            How bitcoin system implements the mechanism to motivate the participants and how the participants prove their work?
+            作为一种架构模式，微服务将复杂系统切分为数十乃至上百个小服务，每个服务负责实现一个独立的业务逻辑。这些小服务易于被小型的软件工程师团队所理解和修改，并带来了语言和框架选择灵活性，缩短应用开发上线时间，可根据不同的工作负载和资源要求对服务进行独立缩扩容等优势。另一方面，当应用被拆分为多个微服务进程后，进程内的方法调用变成了了进程间的远程调用。引入了对大量服务的连接、管理和监控的复杂性,本文介绍了Service Mesh模式如何应对微服务架构的这些挑战，以及Service Mesh的明星开源项目Istio。
         
         </div>
     </a>
     <p class="post-meta">
-    Posted by     &#34;赵化冰&#34; Saturday, May 26, 2018
+    Posted by 赵化冰 Thursday, March 29, 2018
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://mlin74.github.io/2018/01/02/nginmesh-install/">
+        <h2 class="post-title">
+            Nginx开源Service Mesh组件Nginmesh安装指南
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            Nginmesh是NGINX的Service Mesh开源项目，用于Istio服务网格平台中的数据面代理。它旨在提供七层负载均衡和服务路由功能，与Istio集成作为sidecar部署，并将以“标准，可靠和安全的方式”使得服务间通信更容易。Nginmesh在今年底已经连续发布了0.2和0.3版本，提供了服务发现，请求转发，路由规则，性能指标收集等功能。本文介绍如何采用kubeadmin安装kubernetes集群并部署Nginmesh sidecar。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by 赵化冰 Tuesday, January 2, 2018
     </p>
 </div>
 <hr>
@@ -265,7 +260,7 @@
     
     
     <li class="next">
-        <a href="/page/2/">Older Posts &rarr;</a>
+        <a href="/tags/istio/page/2/">Older Posts &rarr;</a>
     </li>
     
 </ul>
@@ -379,7 +374,7 @@
            <ul class="list-inline"> 
                
                <li>
-                   <a href="https://mlin74.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Huabing Blog" >
+                   <a href="" rel="alternate" type="application/rss+xml" title="Huabing Blog" >
                        <span class="fa-stack fa-lg">
                            <i class="fa fa-circle fa-stack-2x"></i>
                            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -463,7 +458,7 @@
                 <ul class="list-inline text-center">
                    
                    <li>
-                       <a href="https://mlin74.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Huabing Blog" >
+                       <a href="" rel="alternate" type="application/rss+xml" title="Huabing Blog" >
                            <span class="fa-stack fa-lg">
                                <i class="fa fa-circle fa-stack-2x"></i>
                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
