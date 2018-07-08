@@ -4,6 +4,11 @@
   
   <url>
     <loc>/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,6 +168,12 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/bitcoin/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -204,14 +215,8 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/istio/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,7 +252,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -282,19 +287,19 @@
   
   <url>
     <loc>/categories/tech/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/tips/</loc>
-    <lastmod>2018-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/tips/</loc>
     <lastmod>2018-03-13T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tips/</loc>
+    <lastmod>2018-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
